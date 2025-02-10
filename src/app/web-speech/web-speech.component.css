@@ -1,0 +1,114 @@
+.image{
+  background-image: url('images/Language.jpg');
+  background-repeat: inherit;
+  padding: 87px;
+  width: auto;
+  opacity: 0.8;
+}
+.speech-result-width{
+  width: 100%;
+}
+span{
+  text-align: center;
+}
+mat-option{
+  text-align: center;
+}
+textarea{
+  text-align: justify;
+  text-align-last: center;
+}
+button{
+  background-color: aqua;
+}
+section{
+  padding: 15px;
+  text-align: center;
+}
+.mat-input-element:disabled{
+  color: rgba(0, 0, 0, 0.9);
+}
+.notification{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.soundwave{
+  animation: soundwave 1.0s infinite;
+}
+@keyframes soundwave{
+  from {
+    opacity: 0.5;
+    color: red;
+  }
+  20% {
+    color: red;
+    opacity: 0.6;
+  }
+  35% {
+    color: red;
+    opacity: 0.9;
+  }
+  45% {
+    color: red;
+    opacity: 1;
+  }
+  55% {
+    color: red;
+    opacity: 0.9;
+  }
+  to {
+    color: red;
+    opacity: 0.5;
+  }
+}
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.2;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.button {
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #046BBC;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+
+}
+
+.button:hover {
+  background-color: purple;
+}
+
+.button:active {
+  background-color: purple;
+  box-shadow: 0 0px #666 purple;
+  transform: translateY(6px);
+  color: red;
+}
+
+.Blink {
+  animation: blinker 1.0s cubic-bezier(.5, 0, 1, 1) infinite alternate;  
+  color:red;
+}
+
+@keyframes blinker {  
+from { opacity: 1;
+color: red ;}
+to { opacity: 0; 
+  color: white ;}
+}
