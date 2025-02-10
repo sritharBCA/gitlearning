@@ -1,0 +1,31 @@
+.fill-space {
+  flex: 1 1 auto;
+}
+span{
+  text-align: center;
+}
+.speech-result-width {
+  width: 100%;
+}
+span{
+  text-align: center;
+  color: #ffffff;
+}
+textarea {
+  text-align-last: center;
+  
+}
+section {
+  padding: 15px;
+  text-align: center;
+}
+.mat-input-element:disabled {
+  color: #ffffff;
+}
+.notification {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+mat-icon{
+  color:#ffffff;
+}
